@@ -87,6 +87,11 @@ p {
 .top-content img{
     margin-bottom:20px; 
 }
+.top-content .large-container{
+    width:96%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
 
 .middle-content {
     margin-bottom: 20px;
@@ -107,7 +112,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -189,8 +193,7 @@ footer nav a {
     display: flex;
     justify-content: flex-start;
     align-items: bottom;
-    /* width: 100%; */
-    margin: 20px 2%;
+    margin-top: 20px;
 }
  section nav a{
     text-decoration: none; 
@@ -206,20 +209,27 @@ section nav{
     font-size: 14px;
     width: 60%;
 }
-.no-no border{
-    border: none;
+section nav a {
+    color:grey;
 }
-/* .new-content{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.button {
+    background-color: white; 
+    border:2px solid black;
+    color: black;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+.no-border{
+    border:none;
+}
+.pad{
+    margin-top: 20px;
     margin-bottom: 20px;
 }
-.new-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-.new-content p{
-    padding: 0 2%;
-    margin-bottom: 0;
-} */
